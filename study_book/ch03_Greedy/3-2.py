@@ -15,6 +15,7 @@ inputs.sort(reverse = True)
 # 2) inputs[0]과 inputs[1]이 같은가?
 if (inputs[0] == inputs[1]):
   result = inputs[0] * M
+
 else :
   c = M // (K+1)
   l = M % (K+1)
